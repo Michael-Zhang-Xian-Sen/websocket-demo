@@ -26,7 +26,6 @@ app.ws.use((ctx, next) => {
         let index = ctxs.indexOf(ctx);
         ctxs.splice(index, 1)
     })
-    // next();
 })
 
 var server = app.listen(3000, function () {
